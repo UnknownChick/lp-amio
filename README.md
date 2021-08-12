@@ -1,9 +1,9 @@
 # Cours "Découverte"
 ## Prérequis
 Des connaissances de base sont recommandées dans les domaines suivants :
-* électronique : loi d'ohm, composants de base tels que résistance, diode, utilisation d'un multimètre
-* informatique : typage des données, structures conditionnelles, fonctions, langage C
-* réseaux : adresses IP, Ethernet, Wifi, Bluetooth
+* Electronique : loi d'ohm, composants de base tels que résistance, diode, utilisation d'un multimètre
+* Informatique : typage des données, structures conditionnelles, fonctions, langage C
+* Réseaux : adresses IP, Ethernet, Wifi, Bluetooth
 ## Introduction aux objets connectés
 La définition d'un objet connecté n'est pas unique.
 ## Le microcontrôleur NodeMCU-ESP32
