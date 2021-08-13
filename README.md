@@ -2,7 +2,7 @@
 ## Prérequis
 Des connaissances de base sont recommandées dans les domaines suivants :
 * Electronique : loi d'ohm, composants de base tels que résistance, diode, utilisation d'un multimètre.
-* Informatique : typage des données, structures conditionnelles, fonctions, langage C.
+* Informatique : typage des données, structures conditionnelles, fonctions, langage C/C++.
 * Réseaux : adresses IP, Ethernet, Wifi, Bluetooth.
 ## Introduction aux objets connectés
 L'internet des objets (IoT : Internet of Things) signifie la mise en réseau d'objets qui sont reconnaissables par un identifiant unique (device ID) qui est une [adresse MAC](https://fr.wikipedia.org/wiki/Adresse_MAC). La plupart du temps, ces objets accèdent à Internet via des équipements réseaux (passerelles, routeurs) pour être accessibles partout dans le monde à partir de n'importe quel produit disposant d'une connexion. Ils utilisent des protocoles de communication pour capter, échanger, transférer des données. La grande quantité de données qu'ils génèrent a besoin d'être traitée soit en amont (traitement à "la volée" sur microcontrôleur), soit à la périphérie (Edge computing), soit en aval via des espaces de stockage (Bases de données, Cloud, ...). Les objets connectés sont répandus dans tous les domaines d'activité : smart city, industrie, commerce, santé, agriculture. Leur nombre s'élève en dizaines de milliards. L'un des principaux enjeux actuels consiste à rendre ces objets "intelligents" en déployant des algorithmes de traitement, intelligence artificielle notamment, au plus bas niveau des réseaux : capteurs, microcontrôleurs, tout en diminuant leur consommation d'énergie. Quant aux microcontrôleurs, éléments incontournables du domaine IoT, il en existe des centaines de modèles (Texas Instrument, STM, Espressif, ...).
@@ -42,7 +42,7 @@ Nous pouvons relever :
     * Précision du RTC Timer
     * Composant indépendant dans le microcontrôleur
 * Mise à jour logicielle
-    * Téléversement par connexion physique (câble USB)
+    * Téléversement par connexion physique (câble USB-miniUSB)
     * Téléversement sans fil par OTA (Over The Air) en Wifi
     * Outils pour flasher firmware et bootloader
 * Modes de connexion réseau
@@ -56,7 +56,9 @@ Nous pouvons relever :
     * Protocoles de transfert sécurisés (https, MQTT sécurisés)
     * Cryptage des messages
     * Protection de la mémoire
-    * Norme européenne ETSI EN 303 645 V2.1 (sécurité IoT grand public)
+    * Norme européenne [ETSI EN 303 645 V2.1](https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf) (sécurité IoT grand public)
+
+Cette liste n'est pas exhaustive. Elle montre qu'un montage style "Maker", popularisé par l'Arduino, peut rapidement être réalisé, mais qu'un projet professionnel demande de nombreuses compétences et une connaissance approfondie de chaque partie intervenant dans le projet en examinant à chaque fois le tryptique hardware-software-sécurité pour chaque échange d'information.
 
 ## Le microcontrôleur NodeMCU-ESP32
 Introduction
