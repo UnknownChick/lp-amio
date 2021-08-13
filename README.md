@@ -26,7 +26,7 @@ Nous pouvons relever :
     * Visual studio Code + Platform IO
     * IDE Arduino version 2 (débogage succinct)
 * Alimentation :
-    * Raccordement directe d'une batterie avec deux fils
+    * Raccordement directe d'une batterie avec deux fils (attention au survoltage)
     * Boîtier d'alimentation régulée (shield battery) en 5V ou 3,3V
     * Panneau solaire pour un ajout d'énergie (recharge batterie) avec certains microcontrôleurs
     * Vext pour "désactiver" les capteurs entre 2 prises de mesures
