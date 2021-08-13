@@ -7,6 +7,11 @@ Des connaissances de base sont recommandées dans les domaines suivants :
 ## Introduction aux objets connectés
 L'internet des objets (IoT : Internet of Things) signifie la mise en réseau d'objets qui sont reconnaissables par un identifiant unique (device ID) qui est une [adresse MAC](https://fr.wikipedia.org/wiki/Adresse_MAC). La plupart du temps, ces objets accèdent à Internet via des équipements réseaux (passerelles, routeurs) pour être accessibles partout dans le monde à partir de n'importe quel produit disposant d'une connexion. Ils utilisent des protocoles de communication pour capter, échanger, transférer des données. La grande quantité de données qu'ils génèrent a besoin d'être traitée soit en amont (traitement à "la volée" sur microcontrôleur), soit à la périphérie (Edge computing), soit en aval via des espaces de stockage (Bases de données, Cloud, ...). Les objets connectés sont répandus dans tous les domaines d'activité : smart city, industrie, commerce, santé, agriculture. Leur nombre s'élève en dizaines de milliards. L'un des principaux enjeux actuels consiste à rendre ces objets "intelligents" en déployant des algorithmes de traitement, intelligence artificielle notamment, au plus bas niveau des réseaux : capteurs, microcontrôleurs, tout en diminuant leur consommation d'énergie.
 
+Pour avoir un aperçu du domaine des objets connectés, dont le microcontrôleur est l'élément incontournable, vous pouvez consulter le tutoriel suivant :
+https://projetsdiy.fr/debuter-projet-objet-connecte-diy-choix-micro-controleur/?noamp=mobile#comments
+
+De ce tutoriel, nous reprenons l'exemple de l'asservissement d'un volet roulant qui illustre l'ensemble des tâches à réaliser :
+
 ![image](https://user-images.githubusercontent.com/44494044/129308509-a436ebf2-0aee-453a-8c68-22ace6069d4c.png#center)
 
 ## Le microcontrôleur NodeMCU-ESP32
