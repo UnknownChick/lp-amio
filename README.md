@@ -12,12 +12,33 @@ https://projetsdiy.fr/debuter-projet-objet-connecte-diy-choix-micro-controleur/?
 
 De ce tutoriel, nous reprenons l'exemple de l'asservissement d'un volet roulant qui illustre l'ensemble des tâches à réaliser :
 
-![image](https://user-images.githubusercontent.com/44494044/129308509-a436ebf2-0aee-453a-8c68-22ace6069d4c.png#center)
+![image](https://user-images.githubusercontent.com/44494044/129308509-a436ebf2-0aee-453a-8c68-22ace6069d4c.png)
 
-En s'intéressant uniquement aux problématiques relevant du microcontrôleur :
 
-![Diagramme microcontrôleur](https://user-images.githubusercontent.com/44494044/129343101-166c9d73-a6bd-4aa0-84b7-424f601bb10f.png)
+En s'intéressant aux principales problématiques relevant du microcontrôleur :
 
+![Diag microcontrôleur](https://user-images.githubusercontent.com/44494044/129352699-96b71023-cea3-4936-936d-54cd4c0ce50f.png)
+
+
+Nous pouvons relever :
+* Outils de développement logiciel (IDE avec débogage) :
+    * Visual Studio + Visual Micro
+    * Visual studio Code + Platform IO
+    * IDE Arduino version 2 (débogage succinct)
+* Alimentation :
+    * Raccordement directe d'une batterie
+    * Boîtier d'alimentation régulée (shield battery) en 5V ou 3,3V
+    * Panneau solaire pour un ajout d'énergie (recharge batterie) avec certains microcontrôleurs
+* Surveillance du micontrôleur
+    * Capteurs internes : température, effet hall
+    * Chiens de garde (WDT) interne et externe (voir la qualité du WDT interne)
+    * Mesure de la tension batterie
+* Entrée ADC
+    * 
+* RTC TImer
+* Mise à jour
+* Modes de connexion réseau
+* sécurité
 
 ## Le microcontrôleur NodeMCU-ESP32
 Introduction
@@ -33,4 +54,4 @@ Cours découverte
  
 ![image](https://user-images.githubusercontent.com/44494044/129308293-9901a00d-d46e-4c86-bdc5-a05011ce7d9e.png)
 
-
+ Le raccordement du PC au microcontrôleur s'effectue à l'aide d'un câble USB capable de transférer les données en plus de l'alimentation.
