@@ -26,19 +26,21 @@ Nous pouvons relever :
     * Visual studio Code + Platform IO
     * IDE Arduino version 2 (débogage succinct)
 * Alimentation :
-    * Raccordement directe d'une batterie
+    * Raccordement directe d'une batterie avec deux fils
     * Boîtier d'alimentation régulée (shield battery) en 5V ou 3,3V
     * Panneau solaire pour un ajout d'énergie (recharge batterie) avec certains microcontrôleurs
     * Vext pour "désactiver" les capteurs entre 2 prises de mesures
 * Surveillance du micontrôleur
     * Capteurs internes : température, effet hall
-    * Chiens de garde (WDT) interne et externe (voir la qualité du WDT interne)
+    * Chiens de garde (WDT) interne et externe (voir la "qualité" du WDT interne)
     * Mesure de la tension batterie
 * Entrée analogique ADC
     * La précision dépend du nombre de bits : 4096 valeurs sur 12 bits
     * Seuil de tension parfois limité, par exemple à 2,4 V maximum, saturation au-delà
     * Zone de linéarité qui ne couvre pas toute l'étendue, par exemple linéarité de 0,1 V à 3,2 V
-* RTC TImer
+* RTC Timer
+    * Précision du RTC Timer
+    * Composant indépendant dans le microcontrôleur
 * Mise à jour
 * Modes de connexion réseau
 * sécurité
