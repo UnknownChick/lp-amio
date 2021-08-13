@@ -30,7 +30,7 @@ Nous pouvons relever :
     * Boîtier d'alimentation régulée (shield battery) en 5V ou 3,3V
     * Panneau solaire pour un ajout d'énergie (recharge batterie) avec certains microcontrôleurs
     * Vext pour "désactiver" les capteurs entre 2 prises de mesures
-* Surveillance du micontrôleur
+* Surveillance du microcontrôleur
     * Capteurs internes : température, effet hall
     * Chiens de garde (WDT) interne et externe (voir la "qualité" du WDT interne)
     * Mesure de la tension batterie
@@ -41,9 +41,22 @@ Nous pouvons relever :
 * RTC Timer
     * Précision du RTC Timer
     * Composant indépendant dans le microcontrôleur
-* Mise à jour
+* Mise à jour logicielle
+    * Téléversement par connexion physique (câble USB)
+    * Téléversement sans fil par OTA (Over The Air) en Wifi
+    * Outils pour flasher firmware et bootloader
 * Modes de connexion réseau
-* sécurité
+    * Wifi (modes AP et STA)
+    * BLE
+    * LoRa
+    * Ethernet
+    * MESH (chaque microcontrôleur devient un noeud du réseau)
+    * Radiofréquences (RF)
+* Sécurité IoT
+    * Protocoles de transfert sécurisés (https, MQTT sécurisés)
+    * Cryptage des messages
+    * Protection de la mémoire
+    * Norme européenne ETSI EN 303 645 V2.1 (sécurité IoT grand public)
 
 ## Le microcontrôleur NodeMCU-ESP32
 Introduction
