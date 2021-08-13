@@ -72,6 +72,5 @@ Cours découverte
   * liste
  liste
  
-![image](https://user-images.githubusercontent.com/44494044/129308293-9901a00d-d46e-4c86-bdc5-a05011ce7d9e.png)
 
  Le raccordement du PC au microcontrôleur s'effectue à l'aide d'un câble USB capable de transférer les données en plus de l'alimentation.
